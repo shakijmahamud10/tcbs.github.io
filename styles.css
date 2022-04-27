@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap");
+
+body {
+  font-family: "Quicksand";
+  /* background-color: #25263f; */
+  /* background: linear-gradient(to top right, #000000de 50%, #242656),
+    linear-gradient(220deg, transparent 75%, #2352ff); */
+  background: linear-gradient(to top right, #000000de 50%, #93160f),
+    linear-gradient(220deg, transparent 75%, #3919eb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container {
+  width: 395px;
+  height: 1080px;
+  /* background: linear-gradient(to top right, #aaaf2ae0 50%, #242656),
+    linear-gradient(220deg, transparent 75%, #f5b300); */
+  /* border-radius: 40px; */
+  /* box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1); */
+  overflow: hidden;
+  margin-top: -33px;
+}
+
+span.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #4f3c75;
+}
+
+div.menu {
+  width: 18px;
+  height: 2px;
+  background-color: #4f3c75;
+  border-radius: 10px;
+}
+
+div.menu::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 6px;
+  width: 10px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #4f3c75;
+}
+
+span.name {
+  color: #f1eff5;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+span.item {
+  color: #4f3c75;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+span.active {
+  color: white;
+  background-color: #4f3c75;
+  border-radius: 30px;
+}
+
+div.menu-label {
+  color: #261738;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
+
+.bg-col-1 {
+  background-color: #a2d582;
+}
+
+.big {
+  height: 130px;
+  border-radius: 20px;
+}
+
+div.medium {
+  height: 162px;
+  border-radius: 20px;
+}
+
+div.mediumx {
+  height: 180px;
+  border-radius: 20px;
+}
+
+div.medium2 {
+  height: 160px;
+  border-radius: 20px;
+  margin-top: -63px;
+}
+
+.bg-col-2 {
+  background-color: #d5d7ff;
+}
+
+div.small {
+  height: 168px;
+  border-radius: 20px;
+}
+
+div.small2 {
+  height: 150px;
+  border-radius: 20px;
+  margin-top: -22px;
+}
+
+div.smallx {
+  height: 165px;
+  border-radius: 20px;
+  margin-top: -38px;
+}
+
+.bg-col-3 {
+  background-color: #c7d582;
+}
+
+.bg-col-4 {
+  background-color: #fbe4e7;
+}
